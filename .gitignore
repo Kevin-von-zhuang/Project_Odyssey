@@ -30,3 +30,22 @@ Thumbs.db
 *.db
 *.sqlite
 data/
+
+# Python虚拟环境（你的env文件夹）
+env_for_odyssey/
+venv/
+env/
+.venv/
+
+# Python缓存、编译文件
+__pycache__/
+*.pyc
+*.pyi
+*.pyd
+*.log
+*.ipynb_checkpoints
+
+# 系统、编辑器文件
+.DS_Store
+.vscode/!settings.json
+.vscode/!extensions.json
