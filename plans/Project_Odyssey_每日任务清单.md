@@ -11,22 +11,22 @@
 ### Day 1 — 7/3（周四）：工具链起手
 
 **上午**
-- [ ] 注册 GitHub 账号，了解 GitHub 是什么、为什么用
-- [ ] 看 B站 Git 入门教程（前半部分：Git 原理、仓库概念、commit/push/pull）
-- [ ] 了解 VSCode 界面：文件浏览器、终端、插件市场、命令面板（Ctrl+Shift+P）
+- [x] 注册 GitHub 账号，了解 GitHub 是什么、为什么用
+- [x] 看 B站 Git 入门教程（前半部分：Git 原理、仓库概念、commit/push/pull）
+- [x] 了解 VSCode 界面：文件浏览器、终端、插件市场、命令面板（Ctrl+Shift+P）
 
 **下午**
 - [x] 确认 Python 3.8+ 已安装，检查 `python --version`
 - [x] 安装 Git（git-scm.com），检查 `git --version`
-- [ ] 在 GitHub 网页上创建仓库 `project-odyssey-eda`
-- [ ] `git clone` 到本地，用 VSCode 打开该文件夹
+- [x] 在 GitHub 网页上创建仓库 `project-odyssey-eda`
+- [x] `git clone` 到本地，用 VSCode 打开该文件夹
 - [x] 安装 VSCode 必装插件：Python、Jupyter、GitLens、Markdown Preview
 
 **晚上**
 - [x] 创建 Python 虚拟环境：`python -m venv venv` → 激活 → `pip install jupyter pandas matplotlib seaborn`
 - [x] 在 VSCode 中创建第一个 Jupyter Notebook (`eda.ipynb`)
-- [ ] 写第一个 cell：`print("Hello Odyssey")` 并运行
-- [ ] 下载 Superstore 数据集 CSV 到 `data/` 文件夹
+- [x] 写第一个 cell：`print("Hello Odyssey")` 并运行
+- [x] 下载 Superstore 数据集 CSV 到 `data/` 文件夹
 - [ ] `git add .` → `git commit -m "init project"` → `git push`
 - [ ] 30 分钟 SQL：学习 SELECT、FROM、WHERE（《SQL 必知必会》第 2-4 章）
 - [ ] Markdown 笔记：今天学会了什么？遇到什么坑？明天做什么？
