@@ -1,19 +1,27 @@
-# 项目子目录（每个项目是独立仓库）
-project/
-
 # Python
 __pycache__/
 *.py[cod]
+*.pyi
+*.pyd
 *.so
-venv/
-.env
+*.egg
+*.whl
 *.egg-info/
 dist/
 build/
+*.log
+
+# Python 虚拟环境
+env_for_odyssey/
+venv/
+env/
+.venv/
+
+# 环境变量（可能含密钥）
+.env
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
 # IDE
 .vscode/
@@ -23,7 +31,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# Data files (大型数据文件不上传)
+# 数据文件（大型数据不上传，README 写清楚来源即可）
 *.csv
 *.xlsx
 *.json
@@ -31,5 +39,9 @@ Thumbs.db
 *.sqlite
 data/
 
-# Python虚拟环境（你的env文件夹）
-env_for_odyssey/
+# 文档（非规划类）
+*.docx
+
+# 测试缓存
+.pytest_cache/
+.mypy_cache/

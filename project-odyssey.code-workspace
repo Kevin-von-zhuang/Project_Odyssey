@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Project_Odyssey [主仓库]",
+			"path": "."
+		},
+		{
+			"name": "EDA 项目",
+			"path": "../projects/project_odyssey_eda"
+		}
+	],
+	"settings": {}
+}
