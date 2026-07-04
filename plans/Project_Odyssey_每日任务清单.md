@@ -29,38 +29,38 @@
 - [x] 下载 Superstore 数据集 CSV 到 `data/` 文件夹
 - [ ] `git add .` → `git commit -m "init project"` → `git push`
 - [ ] 30 分钟 SQL：学习 SELECT、FROM、WHERE（《SQL 必知必会》第 2-4 章）
-- [ ] Markdown 笔记：今天学会了什么？遇到什么坑？明天做什么？
+- [x] Markdown 笔记：今天学会了什么？遇到什么坑？明天做什么？
 
 ---
 
 ### Day 2 — 7/4（周五）：pandas 深入（上）
 
 **上午**
-- [ ] 看《利用 Python 进行数据分析》第 4 章：NumPy 基础（数组、索引、广播、通用函数）
-- [ ] 精读第 5 章前半：Series 和 DataFrame 的创建、索引、切片
+- [x] 看《利用 Python 进行数据分析》第 4 章：NumPy 基础（数组、索引、广播、通用函数）
+- [x] 精读第 5 章前半：Series 和 DataFrame 的创建、索引、切片
 
 **下午**
-- [ ] 在 Jupyter Notebook 中逐个练习：
+- [x] 在 Jupyter Notebook 中逐个练习：
   - `pd.read_csv()` 读入 Superstore 数据
   - `.head()`, `.info()`, `.describe()`, `.shape`, `.columns`
   - `.iloc[]`, `.loc[]` 索引和切片
   - 布尔索引筛选数据
   - 新建列、删除列、重命名列
-- [ ] 练习 `.value_counts()`, `.nunique()`, `.isnull().sum()`
+- [x] 练习 `.value_counts()`, `.nunique()`, `.isnull().sum()`
 
 **晚上**
-- [ ] 继续 pandas 练习：`.sort_values()`, `.drop_duplicates()`
-- [ ] 探索 Superstore 数据的缺失值和重复值并处理
+- [x] 继续 pandas 练习：`.sort_values()`, `.drop_duplicates()`
+- [x] 探索 Superstore 数据的缺失值和重复值并处理
 - [ ] 30 分钟 SQL：学习 ORDER BY、LIMIT、LIKE、IN、BETWEEN（第 5 章）
-- [ ] `git commit -m "day2 pandas basics"`
-- [ ] Markdown 笔记
+- [x] `git commit -m "day2 pandas basics"`
+- [x] Markdown 笔记
 
 ---
 
 ### Day 3 — 7/5（周六）：pandas 深入（下）
 
 **上午**
-- [ ] 精读第 5 章后半 + 第 6 章：数据载入、读写文件（CSV/Excel/JSON），`read_csv` 的常用参数
+- [x] 精读第 5 章后半 + 第 6 章：数据载入、读写文件（CSV/Excel/JSON），`read_csv` 的常用参数
 - [ ] 第 7 章：数据清洗和准备 — 缺失值处理（`dropna`, `fillna`）、重复值、数据转换（`map`, `replace`）
 
 **下午**
