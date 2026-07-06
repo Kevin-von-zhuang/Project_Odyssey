@@ -27,7 +27,7 @@
 - [x] 在 VSCode 中创建第一个 Jupyter Notebook (`eda.ipynb`)
 - [x] 写第一个 cell：`print("Hello Odyssey")` 并运行
 - [x] 下载 Superstore 数据集 CSV 到 `data/` 文件夹
-- [ ] `git add .` → `git commit -m "init project"` → `git push`
+- [x] `git add .` → `git commit -m "init project"` → `git push`
 - [ ] 30 分钟 SQL：学习 SELECT、FROM、WHERE（《SQL 必知必会》第 2-4 章）
 - [x] Markdown 笔记：今天学会了什么？遇到什么坑？明天做什么？
 
@@ -61,7 +61,7 @@
 
 **上午**
 - [x] 精读第 5 章后半 + 第 6 章：数据载入、读写文件（CSV/Excel/JSON），`read_csv` 的常用参数
-- [ ] 第 7 章：数据清洗和准备 — 缺失值处理（`dropna`, `fillna`）、重复值、数据转换（`map`, `replace`）
+- [x] 第 7 章：数据清洗和准备 — 缺失值处理（`dropna`, `fillna`）、重复值、数据转换（`map`, `replace`）
 
 **下午**
 - [ ] 练习 `.groupby()` + `.agg()` 组合拳（单列聚合、多列聚合、自定义聚合函数）
@@ -76,14 +76,14 @@
   - 找到利润率最高/最低的 10 个产品子类
 - [ ] 30 分钟 SQL：聚合函数 COUNT/SUM/AVG/MAX/MIN + GROUP BY + HAVING（第 6-7 章）
 - [ ] `git commit -m "day3 pandas advanced"`
-- [ ] Markdown 笔记
+- [x] Markdown 笔记
 
 ---
 
 ### Day 4 — 7/6（周日）：可视化 + 周总结
 
 **上午**
-- [ ] 看 seaborn 官方 gallery，浏览所有图表类型，心中有数
+- [x] 看 seaborn 官方 gallery，浏览所有图表类型，心中有数
 - [ ] 精学 5 种核心图：
   - `sns.barplot()` — 柱状图（分类对比）
   - `sns.lineplot()` — 折线图（趋势）
